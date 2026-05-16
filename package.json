@@ -1,0 +1,9 @@
+{
+  "name": "nexatech-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calendar app developed by NexaTech.",
+  "scripts": {
+    "start": "npx --yes serve . -p 3000"
+  }
+}
