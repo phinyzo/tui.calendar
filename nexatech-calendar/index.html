@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1a1a1a">
+	<meta name="description" content="Calendar">
+	<title>Calendar</title>
+	<link rel="stylesheet" href="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.css">
+	<link rel="stylesheet" href="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.css">
+	<link rel="stylesheet" href="https://uicdn.toast.com/calendar/latest/toastui-calendar.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="toolbar">
+		<h1 class="title">Calendar</h1>
+		<div class="toolbar-actions">
+			<button type="button" class="btn" id="calPrev" aria-label="Previous">←</button>
+			<button type="button" class="btn" id="calToday">Today</button>
+			<button type="button" class="btn" id="calNext" aria-label="Next">→</button>
+			<span class="range" id="calRange"></span>
+			<select class="btn" id="calView" aria-label="View">
+				<option value="month">Month</option>
+				<option value="week">Week</option>
+				<option value="day">Day</option>
+			</select>
+		</div>
+	</header>
+
+	<div id="calendar" class="calendar-root"></div>
+
+	<footer class="credit">
+		Developed by <a href="https://nexatechportfoliowebsite.vercel.app/" target="_blank" rel="noreferrer">NexaTech</a>
+	</footer>
+
+	<script src="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.js"></script>
+	<script src="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.js"></script>
+	<script src="https://uicdn.toast.com/calendar/latest/toastui-calendar.js"></script>
+	<script src="script.js" defer></script>
+</body>
+</html>
